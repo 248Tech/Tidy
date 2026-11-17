@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "Tidy",
+  "outputfilename": "Tidy",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "248Tech LLC",
+    "email": "joe@248tech.com"
+  },
+  "info": {
+    "companyName": "248Tech LLC",
+    "productName": "Tidy",
+    "productVersion": "1.0.0",
+    "copyright": "Copyright (c) 2026 Joe Wayne / 248Tech LLC. MIT License.",
+    "comments": "See what is slowing your PC down and what is filling your drives."
+  }
+}
